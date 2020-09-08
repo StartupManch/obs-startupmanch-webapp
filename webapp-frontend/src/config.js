@@ -1,1 +1,0 @@
-// Point all the Environment Variable to the static Varibales here
