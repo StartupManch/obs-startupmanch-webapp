@@ -1,0 +1,12 @@
+sudo:          true
+language:      node_js
+node_js:
+  - "node"
+script: cd webapp_frontend
+install:       npm install
+script:
+  - npm test
+  - gulp
+cache:
+  directories:
+    - node_modules
